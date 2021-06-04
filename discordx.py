@@ -253,7 +253,7 @@ async def abuse(ctx):
         voice.play(source)
 
 
-client.run('ODE4MTQ4MDc3MTg1MjY5Nzkw.YET1xg.4Ar4tTa_Himj8iqpZmZCoWVmJgk')
+client.run(os.getenv('TOKEN'))
 
 
 

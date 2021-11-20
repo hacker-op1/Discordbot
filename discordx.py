@@ -231,9 +231,8 @@ async def abuse(ctx):
         nam = name(m)
         if nam == "harshit" or nam == "BinaryNerd":
             nam = name(str(ctx.message.author))
-        l = [f"Nice tits,{nam}", f"Fuck off {nam}", f"{nam} is a Dick head", f"piss off {nam}",
-             f"oh {nam}, you Son of a bitch", f"Oh {nam}, you bloody Bastard",
-             f"I wanted to tell you that {nam} is wanking."]
+        l = [f"Good morning,{nam}", f"I hope you're doing well {nam}", f"Thanks for getting in touch {nam}",
+             f"How are you? {nam}"]
         i = random.randint(0, len(l) - 1)
         TextToSpeech(l[i])
         source = FFmpegPCMAudio("welcome.mp3")
@@ -243,9 +242,8 @@ async def abuse(ctx):
         nam = m[7:]
         if nam == "harshit" or nam =="BinaryNerd":
             nam = name(str(ctx.message.author))
-        l = [f"Nice tits,{nam}", f"Fuck off {nam}", f"{nam} is a Dick head", f"piss off {nam}",
-             f"oh {nam}, you Son of a bitch", f"Oh {nam}, you bloody Bastard",
-             f"I wanted to tell you that {nam} is wanking."]
+        l = [f"Good morning,{nam}", f"I hope you're doing well {nam}", f"Thanks for getting in touch {nam}",
+             f"How are you? {nam}"]
 
         i = random.randint(0, len(l) - 1)
         TextToSpeech(l[i])
